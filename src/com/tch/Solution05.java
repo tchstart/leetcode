@@ -11,7 +11,7 @@ import java.util.Queue;
  * @ClassName: Solution05
  * @Description: 226. 翻转二叉树
  * @date : 2023-04-18 14:13
- * 力扣链接：https://leetcode.cn/problems/invert-binary-tree/
+ * 力扣链接： https://leetcode.cn/problems/invert-binary-tree/
  **/
 class Solution05 {
     public TreeNode invertTree(TreeNode root) {
