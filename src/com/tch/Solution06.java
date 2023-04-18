@@ -11,7 +11,7 @@ import java.util.Queue;
  * @ClassName: Solution06
  * @Description:  二叉树的镜像
  * @date : 2023-04-18 19:22
- * 力扣链接：https://leetcode.cn/problems/er-cha-shu-de-jing-xiang-lcof/submissions/
+ * 力扣链接： https://leetcode.cn/problems/er-cha-shu-de-jing-xiang-lcof/submissions/
  **/
 class Solution06 {
     Queue<TreeNode> queue = new LinkedList<>();
