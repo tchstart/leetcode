@@ -1,4 +1,4 @@
-package com.tch;
+package com.tch.tree;
 
 /**
  * @author : tchstart

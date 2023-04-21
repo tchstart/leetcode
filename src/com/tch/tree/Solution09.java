@@ -1,4 +1,4 @@
-package com.tch;
+package com.tch.tree;
 
 import com.tch.tree.TreeNode;
 
