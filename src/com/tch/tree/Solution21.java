@@ -9,6 +9,7 @@ package com.tch.tree;
  *
  * 百度百科中最近公共祖先的定义为：“对于有根树 T 的两个节点 p、q，最近公共祖先表示为一个节点 x，满足 x 是 p、q 的祖先且 x 的深度尽可能大（一个节点也可以是它自己的祖先）。
  * @date : 2023-04-23 17:14
+ * 力扣连接：https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/submissions/
  **/
 public class Solution21 {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
@@ -22,8 +23,8 @@ public class Solution21 {
         TreeNode rightNode = lowestCommonAncestor(root.right,p,q);
         //中
         if(leftNode != null && rightNode != null) return root;
-        if(leftNode != null && rightNode == null) return rightNode;
-        else if(leftNode == null && rightNode != null) return leftNode;
+        if(leftNode != null && rightNode == null) return leftNode;
+        else if(leftNode == null && rightNode != null) return rightNode;
         else return null;
     }
 }
