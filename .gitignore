@@ -3,6 +3,7 @@
 .idea
 leetcode.iml
 *.iml
+out
 
 # Log file
 *.log
